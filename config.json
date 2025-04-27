@@ -1,0 +1,12 @@
+{
+    "ethereumstratumproxy": {
+        "host": "0.0.0.0",
+        "port": 3333,
+        "ethereumrpc": {
+            "host": "127.0.0.1",
+            "port": 8545,
+            "path": "/",
+            "ssl": false
+        }
+    }
+}

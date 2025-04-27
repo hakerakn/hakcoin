@@ -1,0 +1,14 @@
+[Unit]
+Description=Ethereum Stratum Proxy for HAK Coin
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5
+User=root
+ExecStart=/root/hak-eth-stratum-proxy/start-proxy.sh
+WorkingDirectory=/root/hak-eth-stratum-proxy
+
+[Install]
+WantedBy=multi-user.target
